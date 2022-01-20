@@ -1,0 +1,62 @@
+.container{
+  background: rgb(241, 241, 241);
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  background: white;
+  height: fit-content;
+  width: 400px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+input {
+  padding: 15px;
+  margin: 10px 0px;
+  width: 100%;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 2px solid rgb(180, 180, 180);
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+  font-size: xx-large;
+  font-weight: bold;
+  margin: 15px 0px;
+}
+
+button {
+  width: 100%;
+  padding: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 2ms;
+  color: white;
+  border: none;
+}
+
+button:hover {
+  filter: brightness(0.9);
+}
+
+.signin{
+  background: #1f529b;
+}
+
+.signup{
+  background: #EE3625 ;
+}
+
+p {
+  margin: 10px 0;
+}
+
