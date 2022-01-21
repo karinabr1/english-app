@@ -1,0 +1,122 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "What's the correct past form of 'visit'?",
+      "correct": "B",
+      "alternatives": [
+        { "letter": "A", "awswer": "Visitted" },
+        { "letter": "B", "awswer": "Visited" },
+        { "letter": "C", "awswer": "Visiteed" },
+        { "letter": "D", "awswer": "Visit" },
+        { "letter": "E", "awswer": "Visiting" }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Which is the correct sentence?",
+      "correct": "E",
+      "alternatives":[
+        { "letter":"A", "answer":"I am twentieth years old" },
+        { "letter":"B", "answer":"I have twentieth years old" },
+        { "letter":"C", "answer":"I am tuenty years old." },
+        { "letter":"D", "answer":"I am twenty years" },
+        { "letter":"E", "answer":"I am twenty years old" }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Choose the correct present perfect question.",
+      "correct": "A",
+      "alternatives":[
+        { "letter":"A", "answer":"Have you ever been in New york?" },
+        { "letter":"B", "answer":"Have you being in New York?" },
+        { "letter":"C", "answer":"Do you live in New york?" },
+        { "letter":"D", "answer":"I have been living in New York?" },
+        { "letter":"E", "answer":"I have been in New York" }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Who is the daughter of your sister?",
+      "correct": "E",
+      "alternatives":[
+        { "letter":"A", "answer":"My brother" },
+        { "letter":"B", "answer":"My sister" },
+        { "letter":"C", "answer":"My father" },
+        { "letter":"D", "answer":"My aunt" },
+        { "letter":"E", "answer":"My niece" }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Choose the correct word He is a bodyguard. His______ is very dangerous.",
+      "correct": "A",
+      "alternatives":[
+        { "letter":"A", "answer":"Profession" },
+        { "letter":"B", "answer":"Professional" },
+        { "letter":"C", "answer":"Profile" }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "What _ you like for dinner tonight?",
+      "correct": "B",
+      "alternatives":[
+        { "letter":"A", "answer":"Could" },
+        { "letter":"B", "answer":"How" },
+        { "letter":"C", "answer":"Would" },
+        { "letter":"D", "answer":"Will" }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "The person __ interviewed me was very friendly.",
+      "correct": "B",
+      "alternatives":[
+        { "letter":"A", "answer":"Which" },
+        { "letter":"B", "answer":"Who" },
+        { "letter":"C", "answer":"Was" },
+        { "letter":"D", "answer":"How" },
+        { "letter":"E", "answer":"Where" }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "If I went, I __ speak to her.",
+      "correct": "B",
+      "alternatives":[
+        { "letter":"A", "answer":"Will" },
+        { "letter":"B", "answer":"Would" },
+        { "letter":"C", "answer":"Could" },
+        { "letter":"D", "answer":"Have" },
+        { "letter":"E", "answer":"Had" }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "That was rude, you __ have done it.",
+      "correct": "C",
+      "alternatives":[
+        { "letter":"A", "answer":"Mustn't" },
+        { "letter":"B", "answer":"Wouldn't" },
+        { "letter":"C", "answer":"Shouldn't" },
+        { "letter":"D", "answer":"Haven't" },
+        { "letter":"E", "answer":"Couldn't" }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "_____ you finish, you'll be in trouble.",
+      "correct": "D",
+      "alternatives":[
+        { "letter":"A", "answer":"otherwise" },
+        { "letter":"B", "answer":"Do" },
+        { "letter":"C", "answer":"Shouldn't" },
+        { "letter":"D", "answer":"unless" },
+        { "letter":"E", "answer":"Couldn't" }
+      ]
+    }
+
+  ]
+}
