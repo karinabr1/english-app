@@ -1,13 +1,13 @@
 .container{
-  background: rgb(241, 241, 241);
+  background: var(--background);
   display: flex;
   height: 100vh;
   justify-content: center;
   align-items: center;
 }
 
-.content {
-  background: white;
+.card {
+  background: var(--card-background);
   height: fit-content;
   width: 400px;
   padding: 20px;
@@ -49,11 +49,11 @@ button:hover {
 }
 
 .signin{
-  background: #1f529b;
+  background: var(--blue);
 }
 
 .signup{
-  background: #EE3625 ;
+  background: var(--red) ;
 }
 
 p {

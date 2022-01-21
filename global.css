@@ -45,3 +45,10 @@ table {
 input {
   box-sizing: border-box;
 }
+
+:root {
+  --background: rgb(241, 241, 241) ;
+  --card-background: white;
+  --blue: #2260b6;
+  --red: #EE3625;
+}
