@@ -15,7 +15,7 @@
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-input {
+input[type = 'text'] {
   padding: 15px;
   margin: 10px 0px;
   width: 100%;
@@ -32,6 +32,7 @@ h1 {
 }
 
 button {
+  background-color: var(--red);
   width: 100%;
   padding: 15px;
   font-size: 18px;
@@ -42,7 +43,6 @@ button {
   transition: 2ms;
   color: white;
   border: none;
-  background: var(--red);
 }
 
 button:hover {
@@ -51,4 +51,48 @@ button:hover {
 
 p {
   margin: 10px 0;
+}
+
+.photo {
+  margin: 30px auto;
+  height: 150px;
+  width: 150px;
+  background: url("./photo.png");
+  background-size: 100% 100%;
+  overflow: hidden;
+  padding: 30px;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  position: relative;
+}
+
+.my_file {
+  position: absolute;
+  bottom: 0px;
+  outline: none;
+  color: transparent;
+  width: 100%;
+  padding: 20px 85px;
+  cursor: pointer;
+  box-sizing: border-box;
+  transition: 0.5s;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+}
+
+.my_file:hover{
+  opacity: 1;
+}
+
+.my_file::-webkit-file-upload-button {
+  visibility: hidden;
+} 
+
+.my_file::before {
+  content: '\f030';
+  font-family: fontAwesome;
+  font-size: 40px;
+  color: #fff;
+  display: inline-block;
 }

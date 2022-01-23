@@ -1,15 +1,16 @@
-.container{
+.container {
   background: var(--background);
   display: flex;
-  height: 100vh;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
 .card {
   background: var(--card-background);
   height: fit-content;
-  width: 400px;
+  width: 600px;
   padding: 20px;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -51,4 +52,24 @@ button:hover {
 
 p {
   margin: 10px 0;
+}
+
+.questions {
+  margin: 15px 0px;
+}
+
+.questionWrapper {
+  margin: 10px 0;
+  border: 2px solid rgb(214, 214, 214);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.questionWrapper p {
+  font-size: 20px;
+}
+
+.answer input {
+  width: unset;
+  margin-right: 10px;
 }

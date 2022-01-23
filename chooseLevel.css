@@ -45,11 +45,11 @@ p {
 }
 
 .card.basic:hover {
-  border-color: var(--blue);
+  border-color: var(--red);
 }
 
 .card.quiz:hover {
-  border-color: var(--blue);
+  border-color: var(--red);
 }
 
 h2 {
