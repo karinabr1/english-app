@@ -11,29 +11,11 @@
 <body>
   <div class="container">
     <div class="card">
-      <form action="">
+      <form id='form'>
         <h1>Teste de nivelamento</h1>
         <h2>Responda as questões abaixo para descobrir o seu nível de inglês</h2>
         
-        <div class="questions">
-          <div class="questionWrapper">
-            <p>What's the correct past form of 'visit'?</p>
-
-            <div class="answer" >
-              <input type="radio" id='answerA' name='question1' value="A">
-              <label for='answerA' >Visitted</label>
-            </div>
-
-            <div class="answer" >
-              <input type="radio" id='answerB' name='question1' value="B" >
-              <label for='answerB' >Visitted</label>
-            </div>
-
-            <div class="answer" >
-              <input type="radio" id='answerC' name='question1' value="C">
-              <label for='answerC' >Visitted</label>
-            </div>
-          </div>
+        <div id="questions">
         </div>
 
         <button type="submit" > Finalizar </button>
@@ -41,4 +23,5 @@
     </div>
   </div>
 </body>
+<script src="./levelingQuestions.js"></script>
 </html>

@@ -5,11 +5,11 @@
       "question": "What's the correct past form of 'visit'?",
       "correct": "B",
       "alternatives": [
-        { "letter": "A", "awswer": "Visitted" },
-        { "letter": "B", "awswer": "Visited" },
-        { "letter": "C", "awswer": "Visiteed" },
-        { "letter": "D", "awswer": "Visit" },
-        { "letter": "E", "awswer": "Visiting" }
+        { "letter": "A", "answer": "Visitted" },
+        { "letter": "B", "answer": "Visited" },
+        { "letter": "C", "answer": "Visiteed" },
+        { "letter": "D", "answer": "Visit" },
+        { "letter": "E", "answer": "Visiting" }
       ]
     },
     {
@@ -117,6 +117,5 @@
         { "letter":"E", "answer":"Couldn't" }
       ]
     }
-
   ]
 }
